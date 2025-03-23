@@ -1,5 +1,3 @@
-<link rel="icon" type="image/x-icon" href="./favicon.ico">
-
 ## Iavor Veltchev's Projects
 
 
