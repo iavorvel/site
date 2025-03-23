@@ -1,7 +1,8 @@
 ## Iavor Veltchev's Projects
 
 
-### MyLD2410
+### MyLD2410 [&copy; 2024]
+![LD2410C](images/ld2410c.png)
 
 An Arduino library for the LD2410 presence sensor, including HLK-LD2410B and HLK-LD2410C.
 
@@ -10,28 +11,27 @@ An Arduino library for the LD2410 presence sensor, including HLK-LD2410B and HLK
 [MyLD2410 documentation](https://iavorvel.github.io/site/MyLD2410/classMyLD2410.html)
 
 ---
-### Tetris Ai
+### Tetris Ai [&copy; 2013]
+Play against a Tetris AI engine, or watch it in action.
 
-Play against a Tetris AI engine, or watch it in action
-
-[Tetris Ai](https://iavorvel.github.io/site/tetrisAi)
-
-
----
-### Othelo/Revresi Ai
-
-Play against an Othelo AI engine
-
-[Othelo Ai](https://iavorvel.github.io/site/reversi)
+![Tetris icon](images/tetris32.png) [Play Tetris Ai](https://iavorvel.github.io/site/tetrisAi)
 
 
 ---
-### Blackjack Game
+### Othelo/Revresi Ai [&copy; 2017]
 
-[Play Blackjack](https://iavorvel.github.io/site/bj)
+Play against an Othelo AI engine.
+
+![Othelo icon](images/reversi23.png) [Play Othelo Ai](https://iavorvel.github.io/site/reversi)
 
 
 ---
-### TMR Wizard
+### Blackjack Game [&copy; 2023]
 
-[TMR wizard](https://iavorvel.github.io/site/TMRwiz)
+![Blackack icon](images/back32.png) [Play Blackjack](https://iavorvel.github.io/site/bj)
+
+
+---
+### TMR Wizard [&copy; 2013 - 2025]
+
+![TMRwiz icon](images/tmrwiz.png) [TMR wizard](https://iavorvel.github.io/site/TMRwiz)
