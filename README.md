@@ -1,6 +1,7 @@
-#
+## Iavor Veltchev's Projects
 
-## MyLD2410
+
+### MyLD2410
 
 An Arduino library for the LD2410 presence sensor, including HLK-LD2410B and HLK-LD2410C.
 
@@ -8,9 +9,29 @@ An Arduino library for the LD2410 presence sensor, including HLK-LD2410B and HLK
 
 [MyLD2410 documentation](https://iavorvel.github.io/site/MyLD2410/classMyLD2410.html)
 
-#
+---
+### Tetris Ai
 
-## Other projects
+Play against a Tetris AI engine, or watch it in action
+
+[Tetris Ai](https://iavorvel.github.io/site/tetrisAi)
+
+
+---
+### Othelo/Revresi Ai
+
+Play against an Othelo AI engine
+
+[Othelo Ai](https://iavorvel.github.io/site/reversi)
+
+
+---
+### Blackjack Game
+
+[Play Blackjack](https://iavorvel.github.io/site/bj)
+
+
+---
+### TMR Wizard
 
 [TMR wizard](https://iavorvel.github.io/site/TMRwiz)
-
