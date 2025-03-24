@@ -28,7 +28,7 @@ Play against an Othelo AI engine.
 ---
 ### Blackjack Game [&copy; 2023]
 
-![Blackack icon](images/back32.png) [Play Blackjack](http://3.135.225.195/bjack)
+![Blackack icon](images/bjack32.png) [Play Blackjack](http://3.135.225.195/bjack)
 
 
 ---
