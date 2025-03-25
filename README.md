@@ -1,5 +1,4 @@
-## Iavor Veltchev's Projects
-
+##  _Iavor Veltchev's Projects_
 
 ### MyLD2410 [&copy; 2024]
 ![LD2410C](images/ld2410c.png)
