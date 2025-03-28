@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['getfirmware_0',['getFirmware',['../classMyLD2410.html#ad70cd1dd16ff16456aee86ea3b147056',1,'MyLD2410']]],
-  ['getlightlevel_1',['getLightLevel',['../classMyLD2410.html#a09131408c82c2c5ae9fa1d4d70e375af',1,'MyLD2410']]],
-  ['getmac_2',['getMAC',['../classMyLD2410.html#ace07b50862435b79d9a650216d48c5eb',1,'MyLD2410']]],
-  ['getmacstr_3',['getMACstr',['../classMyLD2410.html#a6a10ee293d0361e75f6687cc8f5b67ac',1,'MyLD2410']]],
-  ['getmovingsignals_4',['getMovingSignals',['../classMyLD2410.html#ab189118c272af718ce09cd3cdf27fb39',1,'MyLD2410']]],
-  ['getmovingthresholds_5',['getMovingThresholds',['../classMyLD2410.html#af2d30bc0fc9b517bae0910c7a7183759',1,'MyLD2410']]],
-  ['getnoonewindow_6',['getNoOneWindow',['../classMyLD2410.html#ae1a169fafb546bdd8b41ee1aa9cb62f8',1,'MyLD2410']]],
-  ['getoutlevel_7',['getOutLevel',['../classMyLD2410.html#aa921bfd569db3548466026ee81a3a954',1,'MyLD2410']]],
-  ['getrange_8',['getRange',['../classMyLD2410.html#a86ab0ab3bbe8c759f87ae4bea58d1958',1,'MyLD2410']]],
-  ['getrange_5fcm_9',['getRange_cm',['../classMyLD2410.html#a6f612f277614ac7f02c41093c1fa5b89',1,'MyLD2410']]],
-  ['getresolution_10',['getResolution',['../classMyLD2410.html#aa9121650e62f5232176eb1ac75f7f499',1,'MyLD2410']]],
-  ['getsensordata_11',['getSensorData',['../classMyLD2410.html#ab6c711bd09e0365f01128a3c3b7814c8',1,'MyLD2410']]],
-  ['getstationarysignals_12',['getStationarySignals',['../classMyLD2410.html#a834b25a589941012a5bddbaeef877297',1,'MyLD2410']]],
-  ['getstationarythresholds_13',['getStationaryThresholds',['../classMyLD2410.html#ae4b76d22924bdfc5761642e00759867b',1,'MyLD2410']]],
-  ['getstatus_14',['getStatus',['../classMyLD2410.html#a4c9a818b428996ac4f520b0245dee685',1,'MyLD2410']]],
-  ['getversion_15',['getVersion',['../classMyLD2410.html#adef62f13b9f778f320517c60ab9fb7ff',1,'MyLD2410']]]
+  ['end_0',['end',['../classMyLD2410.html#ac88220e76e874dce573108ccfdf25dfa',1,'MyLD2410']]],
+  ['enhancedmode_1',['enhancedMode',['../classMyLD2410.html#a2a1a23cb1f8a40312c380fd3cc4f84e8',1,'MyLD2410']]]
 ];

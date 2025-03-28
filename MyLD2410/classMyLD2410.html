@@ -107,6 +107,23 @@ Public Types</h2></td></tr>
 , <b>DATA</b>
  }</td></tr>
 <tr class="separator:a641092af929e66c8cb2c2768252246e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d292575ffca9c2ada1a457f27f7d79a" id="r_a0d292575ffca9c2ada1a457f27f7d79a"><td class="memItemLeft" align="right" valign="top"><a id="a0d292575ffca9c2ada1a457f27f7d79a" name="a0d292575ffca9c2ada1a457f27f7d79a"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>LightControl</b> { <b>NOT_SET</b> = -1
+, <b>NO_LIGHT_CONTROL</b>
+, <b>LIGHT_BELOW_THRESHOLD</b>
+, <b>LIGHT_ABOVE_THRESHOLD</b>
+ }</td></tr>
+<tr class="separator:a0d292575ffca9c2ada1a457f27f7d79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38ecb8a9b7a7ac88066e6ac50add1451" id="r_a38ecb8a9b7a7ac88066e6ac50add1451"><td class="memItemLeft" align="right" valign="top"><a id="a38ecb8a9b7a7ac88066e6ac50add1451" name="a38ecb8a9b7a7ac88066e6ac50add1451"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>OutputControl</b> { <b>NOT_SET</b> = -1
+, <b>DEFAULT_LOW</b>
+, <b>DEFAULT_HIGH</b>
+ }</td></tr>
+<tr class="separator:a38ecb8a9b7a7ac88066e6ac50add1451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53fb3a3ed3f8d54bb70596c3a42d44b" id="r_ab53fb3a3ed3f8d54bb70596c3a42d44b"><td class="memItemLeft" align="right" valign="top"><a id="ab53fb3a3ed3f8d54bb70596c3a42d44b" name="ab53fb3a3ed3f8d54bb70596c3a42d44b"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>AutoStatus</b> { <b>NOT_SET</b> = -1
+, <b>NOT_IN_PROGRESS</b>
+, <b>IN_PROGRESS</b>
+, <b>COMPLETED</b>
+ }</td></tr>
+<tr class="separator:ab53fb3a3ed3f8d54bb70596c3a42d44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -222,6 +239,15 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>detectedDist
 <tr class="memitem:a2a1a23cb1f8a40312c380fd3cc4f84e8" id="r_a2a1a23cb1f8a40312c380fd3cc4f84e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a1a23cb1f8a40312c380fd3cc4f84e8">enhancedMode</a> (bool enable=true)</td></tr>
 <tr class="memdesc:a2a1a23cb1f8a40312c380fd3cc4f84e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request enhanced mode.  <br /></td></tr>
 <tr class="separator:a2a1a23cb1f8a40312c380fd3cc4f84e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcc00648911627f547e5707718a13ee" id="r_a4bcc00648911627f547e5707718a13ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcc00648911627f547e5707718a13ee">requestAuxConfig</a> ()</td></tr>
+<tr class="memdesc:a4bcc00648911627f547e5707718a13ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request the current auxiliary configuration.  <br /></td></tr>
+<tr class="separator:a4bcc00648911627f547e5707718a13ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a1bc0cde666af70f1e311cd2dc204ff" id="r_a5a1bc0cde666af70f1e311cd2dc204ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1bc0cde666af70f1e311cd2dc204ff">autoThresholds</a> ()</td></tr>
+<tr class="memdesc:a5a1bc0cde666af70f1e311cd2dc204ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin the automatic threshold detection routine (firmware &gt;= 2.44)  <br /></td></tr>
+<tr class="separator:a5a1bc0cde666af70f1e311cd2dc204ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4416b6e4409571bb0189056f28e13ac" id="r_ad4416b6e4409571bb0189056f28e13ac"><td class="memItemLeft" align="right" valign="top">AutoStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4416b6e4409571bb0189056f28e13ac">getAutoStatus</a> ()</td></tr>
+<tr class="memdesc:ad4416b6e4409571bb0189056f28e13ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of the automatic threshold detection routine (firmware &gt;= 2.44)  <br /></td></tr>
+<tr class="separator:ad4416b6e4409571bb0189056f28e13ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad19cb4c89f32092b5f2e6ef94776e18c" id="r_ad19cb4c89f32092b5f2e6ef94776e18c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad19cb4c89f32092b5f2e6ef94776e18c">requestMAC</a> ()</td></tr>
 <tr class="memdesc:ad19cb4c89f32092b5f2e6ef94776e18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request the Bluetooth MAC address.  <br /></td></tr>
 <tr class="separator:ad19cb4c89f32092b5f2e6ef94776e18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,6 +308,21 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>detectedDist
 <tr class="memitem:a09131408c82c2c5ae9fa1d4d70e375af" id="r_a09131408c82c2c5ae9fa1d4d70e375af"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09131408c82c2c5ae9fa1d4d70e375af">getLightLevel</a> ()</td></tr>
 <tr class="memdesc:a09131408c82c2c5ae9fa1d4d70e375af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Light Level.  <br /></td></tr>
 <tr class="separator:a09131408c82c2c5ae9fa1d4d70e375af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acbcce3aec5076b928c1ba22457bde1" id="r_a3acbcce3aec5076b928c1ba22457bde1"><td class="memItemLeft" align="right" valign="top">LightControl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3acbcce3aec5076b928c1ba22457bde1">getLightControl</a> ()</td></tr>
+<tr class="memdesc:a3acbcce3aec5076b928c1ba22457bde1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Light Control parameter.  <br /></td></tr>
+<tr class="separator:a3acbcce3aec5076b928c1ba22457bde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cb65c78280f7215e59ae4199df9eee" id="r_ab1cb65c78280f7215e59ae4199df9eee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1cb65c78280f7215e59ae4199df9eee">setAuxControl</a> (MyLD2410::LightControl light_control, byte light_threshold, MyLD2410::OutputControl output_control)</td></tr>
+<tr class="memdesc:ab1cb65c78280f7215e59ae4199df9eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Auxiliary Control parameters.  <br /></td></tr>
+<tr class="separator:ab1cb65c78280f7215e59ae4199df9eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ce7a397194685957c3492a1e3e448e" id="r_ab1ce7a397194685957c3492a1e3e448e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1ce7a397194685957c3492a1e3e448e">resetAuxControl</a> ()</td></tr>
+<tr class="memdesc:ab1ce7a397194685957c3492a1e3e448e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the Auxiliary Control parameters to their default values.  <br /></td></tr>
+<tr class="separator:ab1ce7a397194685957c3492a1e3e448e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1980a2dce0b36fadab0b4fa6a6341c48" id="r_a1980a2dce0b36fadab0b4fa6a6341c48"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1980a2dce0b36fadab0b4fa6a6341c48">getLightThreshold</a> ()</td></tr>
+<tr class="memdesc:a1980a2dce0b36fadab0b4fa6a6341c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Light Threshold.  <br /></td></tr>
+<tr class="separator:a1980a2dce0b36fadab0b4fa6a6341c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e45695d5fb46ec533ffaf1daf8aa5ae" id="r_a4e45695d5fb46ec533ffaf1daf8aa5ae"><td class="memItemLeft" align="right" valign="top">OutputControl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e45695d5fb46ec533ffaf1daf8aa5ae">getOutputControl</a> ()</td></tr>
+<tr class="memdesc:a4e45695d5fb46ec533ffaf1daf8aa5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Output Control parameter.  <br /></td></tr>
+<tr class="separator:a4e45695d5fb46ec533ffaf1daf8aa5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa921bfd569db3548466026ee81a3a954" id="r_aa921bfd569db3548466026ee81a3a954"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa921bfd569db3548466026ee81a3a954">getOutLevel</a> ()</td></tr>
 <tr class="memdesc:aa921bfd569db3548466026ee81a3a954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Light Level.  <br /></td></tr>
 <tr class="separator:aa921bfd569db3548466026ee81a3a954"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -319,6 +360,26 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>detectedDist
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5a1bc0cde666af70f1e311cd2dc204ff" name="a5a1bc0cde666af70f1e311cd2dc204ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a1bc0cde666af70f1e311cd2dc204ff">&#9670;&#160;</a></span>autoThresholds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::autoThresholds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin the automatic threshold detection routine (firmware &gt;= 2.44) </p>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
 <a id="a4260328f80c1c502190625ead8644af5" name="a4260328f80c1c502190625ead8644af5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4260328f80c1c502190625ead8644af5">&#9670;&#160;</a></span>check()</h2>
 
@@ -395,6 +456,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
+<a id="ad4416b6e4409571bb0189056f28e13ac" name="ad4416b6e4409571bb0189056f28e13ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4416b6e4409571bb0189056f28e13ac">&#9670;&#160;</a></span>getAutoStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MyLD2410::AutoStatus MyLD2410::getAutoStatus </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the status of the automatic threshold detection routine (firmware &gt;= 2.44) </p>
+<dl class="section return"><dt>Returns</dt><dd>AutoStatus </dd></dl>
+
+</div>
+</div>
 <a id="ad70cd1dd16ff16456aee86ea3b147056" name="ad70cd1dd16ff16456aee86ea3b147056"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad70cd1dd16ff16456aee86ea3b147056">&#9670;&#160;</a></span>getFirmware()</h2>
 
@@ -415,6 +496,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
+<a id="a3acbcce3aec5076b928c1ba22457bde1" name="a3acbcce3aec5076b928c1ba22457bde1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acbcce3aec5076b928c1ba22457bde1">&#9670;&#160;</a></span>getLightControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MyLD2410::LightControl MyLD2410::getLightControl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Light Control parameter. </p>
+<dl class="section return"><dt>Returns</dt><dd>LightControl enum </dd></dl>
+
+</div>
+</div>
 <a id="a09131408c82c2c5ae9fa1d4d70e375af" name="a09131408c82c2c5ae9fa1d4d70e375af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09131408c82c2c5ae9fa1d4d70e375af">&#9670;&#160;</a></span>getLightLevel()</h2>
 
@@ -431,6 +532,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 </div><div class="memdoc">
 
 <p>Get the Light Level. </p>
+<dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
+
+</div>
+</div>
+<a id="a1980a2dce0b36fadab0b4fa6a6341c48" name="a1980a2dce0b36fadab0b4fa6a6341c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1980a2dce0b36fadab0b4fa6a6341c48">&#9670;&#160;</a></span>getLightThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte MyLD2410::getLightThreshold </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Light Threshold. </p>
 <dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
 
 </div>
@@ -552,6 +673,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 <p>Get the Light Level. </p>
 <dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
+
+</div>
+</div>
+<a id="a4e45695d5fb46ec533ffaf1daf8aa5ae" name="a4e45695d5fb46ec533ffaf1daf8aa5ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e45695d5fb46ec533ffaf1daf8aa5ae">&#9670;&#160;</a></span>getOutputControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MyLD2410::OutputControl MyLD2410::getOutputControl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Output Control parameter. </p>
+<dl class="section return"><dt>Returns</dt><dd>OutputControl enum </dd></dl>
 
 </div>
 </div>
@@ -755,6 +896,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
+<a id="a4bcc00648911627f547e5707718a13ee" name="a4bcc00648911627f547e5707718a13ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bcc00648911627f547e5707718a13ee">&#9670;&#160;</a></span>requestAuxConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::requestAuxConfig </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request the current auxiliary configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
 <a id="ab9f7377fbc6c71ec37f23adf4d648f63" name="ab9f7377fbc6c71ec37f23adf4d648f63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9f7377fbc6c71ec37f23adf4d648f63">&#9670;&#160;</a></span>requestBToff()</h2>
 
@@ -915,6 +1076,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
+<a id="ab1ce7a397194685957c3492a1e3e448e" name="ab1ce7a397194685957c3492a1e3e448e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ce7a397194685957c3492a1e3e448e">&#9670;&#160;</a></span>resetAuxControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::resetAuxControl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the Auxiliary Control parameters to their default values. </p>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
 <a id="aacd0e36538116dfc8b6758647b7cc79c" name="aacd0e36538116dfc8b6758647b7cc79c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacd0e36538116dfc8b6758647b7cc79c">&#9670;&#160;</a></span>resetBTpassword()</h2>
 
@@ -931,6 +1112,43 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 </div><div class="memdoc">
 
 <p>Reset the BT password. </p>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
+<a id="ab1cb65c78280f7215e59ae4199df9eee" name="ab1cb65c78280f7215e59ae4199df9eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1cb65c78280f7215e59ae4199df9eee">&#9670;&#160;</a></span>setAuxControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::setAuxControl </td>
+          <td>(</td>
+          <td class="paramtype">MyLD2410::LightControl</td>          <td class="paramname"><span class="paramname"><em>light_control</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>light_threshold</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MyLD2410::OutputControl</td>          <td class="paramname"><span class="paramname"><em>output_control</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Auxiliary Control parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">light_control</td><td></td></tr>
+    <tr><td class="paramname">light_threshold</td><td></td></tr>
+    <tr><td class="paramname">output_control</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
 
 </div>

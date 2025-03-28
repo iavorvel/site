@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['check_0',['check',['../classMyLD2410.html#a4260328f80c1c502190625ead8644af5',1,'MyLD2410']]],
-  ['configmode_1',['configMode',['../classMyLD2410.html#a40238c697c8e6610ed8a8627cac12deb',1,'MyLD2410']]]
+  ['begin_0',['begin',['../classMyLD2410.html#a87e4d3437cae53be1f69f7e2bba265f8',1,'MyLD2410']]]
 ];

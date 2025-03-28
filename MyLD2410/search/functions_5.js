@@ -1,6 +1,23 @@
 var searchData=
 [
-  ['inbasicmode_0',['inBasicMode',['../classMyLD2410.html#a448a345f660a0c39d67add0374f77569',1,'MyLD2410']]],
-  ['inconfigmode_1',['inConfigMode',['../classMyLD2410.html#ad2f13dc0247663b9282343ec615250a0',1,'MyLD2410']]],
-  ['inenhancedmode_2',['inEnhancedMode',['../classMyLD2410.html#a09895dc048a873ef64ae82ac8814ebc2',1,'MyLD2410']]]
+  ['getautostatus_0',['getAutoStatus',['../classMyLD2410.html#ad4416b6e4409571bb0189056f28e13ac',1,'MyLD2410']]],
+  ['getfirmware_1',['getFirmware',['../classMyLD2410.html#ad70cd1dd16ff16456aee86ea3b147056',1,'MyLD2410']]],
+  ['getlightcontrol_2',['getLightControl',['../classMyLD2410.html#a3acbcce3aec5076b928c1ba22457bde1',1,'MyLD2410']]],
+  ['getlightlevel_3',['getLightLevel',['../classMyLD2410.html#a09131408c82c2c5ae9fa1d4d70e375af',1,'MyLD2410']]],
+  ['getlightthreshold_4',['getLightThreshold',['../classMyLD2410.html#a1980a2dce0b36fadab0b4fa6a6341c48',1,'MyLD2410']]],
+  ['getmac_5',['getMAC',['../classMyLD2410.html#ace07b50862435b79d9a650216d48c5eb',1,'MyLD2410']]],
+  ['getmacstr_6',['getMACstr',['../classMyLD2410.html#a6a10ee293d0361e75f6687cc8f5b67ac',1,'MyLD2410']]],
+  ['getmovingsignals_7',['getMovingSignals',['../classMyLD2410.html#ab189118c272af718ce09cd3cdf27fb39',1,'MyLD2410']]],
+  ['getmovingthresholds_8',['getMovingThresholds',['../classMyLD2410.html#af2d30bc0fc9b517bae0910c7a7183759',1,'MyLD2410']]],
+  ['getnoonewindow_9',['getNoOneWindow',['../classMyLD2410.html#ae1a169fafb546bdd8b41ee1aa9cb62f8',1,'MyLD2410']]],
+  ['getoutlevel_10',['getOutLevel',['../classMyLD2410.html#aa921bfd569db3548466026ee81a3a954',1,'MyLD2410']]],
+  ['getoutputcontrol_11',['getOutputControl',['../classMyLD2410.html#a4e45695d5fb46ec533ffaf1daf8aa5ae',1,'MyLD2410']]],
+  ['getrange_12',['getRange',['../classMyLD2410.html#a86ab0ab3bbe8c759f87ae4bea58d1958',1,'MyLD2410']]],
+  ['getrange_5fcm_13',['getRange_cm',['../classMyLD2410.html#a6f612f277614ac7f02c41093c1fa5b89',1,'MyLD2410']]],
+  ['getresolution_14',['getResolution',['../classMyLD2410.html#aa9121650e62f5232176eb1ac75f7f499',1,'MyLD2410']]],
+  ['getsensordata_15',['getSensorData',['../classMyLD2410.html#ab6c711bd09e0365f01128a3c3b7814c8',1,'MyLD2410']]],
+  ['getstationarysignals_16',['getStationarySignals',['../classMyLD2410.html#a834b25a589941012a5bddbaeef877297',1,'MyLD2410']]],
+  ['getstationarythresholds_17',['getStationaryThresholds',['../classMyLD2410.html#ae4b76d22924bdfc5761642e00759867b',1,'MyLD2410']]],
+  ['getstatus_18',['getStatus',['../classMyLD2410.html#a4c9a818b428996ac4f520b0245dee685',1,'MyLD2410']]],
+  ['getversion_19',['getVersion',['../classMyLD2410.html#adef62f13b9f778f320517c60ab9fb7ff',1,'MyLD2410']]]
 ];
