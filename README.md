@@ -16,7 +16,7 @@ An Arduino/ESP32 library for the LD2410 presence sensor, including HLK-LD2410B a
 
 An Arduino/ESP32 button library. Detect push-button gestures using a non-blocking algorithm with or without the use of interrupts. This library has been optimized for speed and size. Three types of gestures are detected (click, double-click, and long-press).
 
-[MyButton Library](https://github.com/iavorvel/MyLD2410) on GitHub
+[MyButton Library](https://github.com/iavorvel/MyButton) on GitHub
 
 [MyButton documentation](https://iavorvel.github.io/site/MyButton/classMyButton.html)
 
