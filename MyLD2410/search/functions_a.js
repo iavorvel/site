@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['setauxcontrol_0',['setAuxControl',['../classMyLD2410.html#ab1cb65c78280f7215e59ae4199df9eee',1,'MyLD2410']]],
+  ['setauxcontrol_0',['setAuxControl',['../classMyLD2410.html#a526a1ecde12d4c01131bc513a05f16a9',1,'MyLD2410']]],
   ['setbaud_1',['setBaud',['../classMyLD2410.html#a6af748a423236ea54b71c3c135783a64',1,'MyLD2410']]],
   ['setbtpassword_2',['setBTpassword',['../classMyLD2410.html#a8edd27bf127eeafba2ab525ab17d8725',1,'MyLD2410::setBTpassword(const char *passwd)'],['../classMyLD2410.html#a8375da829883c1c37e4bb8dd0c74303b',1,'MyLD2410::setBTpassword(const String &amp;passwd)']]],
   ['setgateparameters_3',['setGateParameters',['../classMyLD2410.html#ac250d8e735f929f51cfdc6c13657092c',1,'MyLD2410::setGateParameters(byte gate, byte movingThreshold=100, byte stationaryThreshold=100)'],['../classMyLD2410.html#a092a5e1222e297a3d63d597fcbca3cda',1,'MyLD2410::setGateParameters(const ValuesArray &amp;moving_thresholds, const ValuesArray &amp;stationary_thresholds, byte noOneWindow=5)']]],
