@@ -92,11 +92,6 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">MyLD2410 Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>The <a class="el" href="classMyLD2410.html" title="The MyLD2410 class.">MyLD2410</a> class.  
- <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="MyLD2410_8h_source.html">MyLD2410.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -116,7 +111,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a69521c7c547cddb51bf67585c452b30d" id="r_a69521c7c547cddb51bf67585c452b30d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69521c7c547cddb51bf67585c452b30d">MyLD2410</a> (Stream &amp;serial, bool debug=false)</td></tr>
-<tr class="memdesc:a69521c7c547cddb51bf67585c452b30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classMyLD2410.html" title="The MyLD2410 class.">MyLD2410</a> object.  <br /></td></tr>
+<tr class="memdesc:a69521c7c547cddb51bf67585c452b30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classMyLD2410.html">MyLD2410</a> object.  <br /></td></tr>
 <tr class="separator:a69521c7c547cddb51bf67585c452b30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87e4d3437cae53be1f69f7e2bba265f8" id="r_a87e4d3437cae53be1f69f7e2bba265f8"><td class="memItemLeft" align="right" valign="top"><a id="a87e4d3437cae53be1f69f7e2bba265f8" name="a87e4d3437cae53be1f69f7e2bba265f8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
@@ -150,7 +145,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>inEnhancedMode</b> ()
 <tr class="memdesc:a09895dc048a873ef64ae82ac8814ebc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the device is in enhanced mode (continuously sends enhanced presence data) <br /></td></tr>
 <tr class="separator:a09895dc048a873ef64ae82ac8814ebc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c9a818b428996ac4f520b0245dee685" id="r_a4c9a818b428996ac4f520b0245dee685"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c9a818b428996ac4f520b0245dee685">getStatus</a> ()</td></tr>
-<tr class="memdesc:a4c9a818b428996ac4f520b0245dee685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of the sensor: 0 - No presence; 1 - Moving only; 2 - Stationary only; 3 - Both moving and stationary; 255 - The sensor status is invalid.  <br /></td></tr>
+<tr class="memdesc:a4c9a818b428996ac4f520b0245dee685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of the sensor: 0 - No presence; 1 - Moving only; 2 - Stationary only; 3 - Both moving and stationary; 4 - Auto thresholds in progress; 5 - Auto thresholds successful; 6 - Auto thresholds failed; 255 - The sensor status is invalid.  <br /></td></tr>
 <tr class="separator:a4c9a818b428996ac4f520b0245dee685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af201dcba45a731ccb73f875a3b8d45d0" id="r_af201dcba45a731ccb73f875a3b8d45d0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af201dcba45a731ccb73f875a3b8d45d0">statusString</a> ()</td></tr>
 <tr class="memdesc:af201dcba45a731ccb73f875a3b8d45d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the presence status as a c-string.  <br /></td></tr>
@@ -236,9 +231,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
 <tr class="memitem:a4bcc00648911627f547e5707718a13ee" id="r_a4bcc00648911627f547e5707718a13ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcc00648911627f547e5707718a13ee">requestAuxConfig</a> ()</td></tr>
 <tr class="memdesc:a4bcc00648911627f547e5707718a13ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request the current auxiliary configuration.  <br /></td></tr>
 <tr class="separator:a4bcc00648911627f547e5707718a13ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a1bc0cde666af70f1e311cd2dc204ff" id="r_a5a1bc0cde666af70f1e311cd2dc204ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1bc0cde666af70f1e311cd2dc204ff">autoThresholds</a> ()</td></tr>
-<tr class="memdesc:a5a1bc0cde666af70f1e311cd2dc204ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin the automatic threshold detection routine (firmware &gt;= 2.44)  <br /></td></tr>
-<tr class="separator:a5a1bc0cde666af70f1e311cd2dc204ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bca7f40573abaefe6c658b120c72d71" id="r_a3bca7f40573abaefe6c658b120c72d71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bca7f40573abaefe6c658b120c72d71">autoThresholds</a> (byte _timeout=10)</td></tr>
+<tr class="memdesc:a3bca7f40573abaefe6c658b120c72d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin the automatic threshold detection routine (firmware &gt;= 2.44)  <br /></td></tr>
+<tr class="separator:a3bca7f40573abaefe6c658b120c72d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7085e89272a9e10aab9202699997e3c2" id="r_a7085e89272a9e10aab9202699997e3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MyLD2410_8h.html#a75298cc21a86826776ac6cf137ffb791">AutoStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7085e89272a9e10aab9202699997e3c2">getAutoStatus</a> ()</td></tr>
 <tr class="memdesc:a7085e89272a9e10aab9202699997e3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of the automatic threshold detection routine (firmware &gt;= 2.44)  <br /></td></tr>
 <tr class="separator:a7085e89272a9e10aab9202699997e3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,9 +316,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
 <tr class="memdesc:aa921bfd569db3548466026ee81a3a954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Light Level.  <br /></td></tr>
 <tr class="separator:aa921bfd569db3548466026ee81a3a954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classMyLD2410.html" title="The MyLD2410 class.">MyLD2410</a> class. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a69521c7c547cddb51bf67585c452b30d" name="a69521c7c547cddb51bf67585c452b30d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69521c7c547cddb51bf67585c452b30d">&#9670;&#160;</a></span>MyLD2410()</h2>
 
@@ -343,7 +336,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
       </table>
 </div><div class="memdoc">
 
-<p>Construct a new <a class="el" href="classMyLD2410.html" title="The MyLD2410 class.">MyLD2410</a> object. </p>
+<p>Construct a new <a class="el" href="classMyLD2410.html">MyLD2410</a> object. </p>
 <p>Construct from a serial stream object.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -356,8 +349,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5a1bc0cde666af70f1e311cd2dc204ff" name="a5a1bc0cde666af70f1e311cd2dc204ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a1bc0cde666af70f1e311cd2dc204ff">&#9670;&#160;</a></span>autoThresholds()</h2>
+<a id="a3bca7f40573abaefe6c658b120c72d71" name="a3bca7f40573abaefe6c658b120c72d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bca7f40573abaefe6c658b120c72d71">&#9670;&#160;</a></span>autoThresholds()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,13 +358,19 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
         <tr>
           <td class="memname">bool MyLD2410::autoThresholds </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>_timeout</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Begin the automatic threshold detection routine (firmware &gt;= 2.44) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_timeout</td><td>- allow for timeout [s] to leave the room </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
 
 </div>
@@ -887,7 +886,7 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Get the status of the sensor: 0 - No presence; 1 - Moving only; 2 - Stationary only; 3 - Both moving and stationary; 255 - The sensor status is invalid. </p>
+<p>Get the status of the sensor: 0 - No presence; 1 - Moving only; 2 - Stationary only; 3 - Both moving and stationary; 4 - Auto thresholds in progress; 5 - Auto thresholds successful; 6 - Auto thresholds failed; 255 - The sensor status is invalid. </p>
 <dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
 
 </div>
@@ -1554,7 +1553,7 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 </div><div class="memdoc">
 
 <p>Get the presence status as a c-string. </p>
-<dl class="section return"><dt>Returns</dt><dd>const char* ["No target", "Moving only", "Stationary only", "Both moving and stationary"] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>const char* : "No target", "Moving only", "Stationary only", "Both moving and stationary", "Auto thresholds in progress", "Auto thresholds successful", "Auto thresholds failed". </dd></dl>
 
 </div>
 </div>
