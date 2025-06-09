@@ -252,9 +252,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>movingTargetDetected<
 <tr class="memitem:a1664f935da63fe0ac0974c84612eeff9" id="r_a1664f935da63fe0ac0974c84612eeff9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1664f935da63fe0ac0974c84612eeff9">requestParameters</a> ()</td></tr>
 <tr class="memdesc:a1664f935da63fe0ac0974c84612eeff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request the sensor parameters: range, motion thresholds, stationary thresholds, no-one window.  <br /></td></tr>
 <tr class="separator:a1664f935da63fe0ac0974c84612eeff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac250d8e735f929f51cfdc6c13657092c" id="r_ac250d8e735f929f51cfdc6c13657092c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac250d8e735f929f51cfdc6c13657092c">setGateParameters</a> (byte gate, byte movingThreshold=100, byte stationaryThreshold=100)</td></tr>
-<tr class="memdesc:ac250d8e735f929f51cfdc6c13657092c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gate parameters for a particular gate, or for all gates at once.  <br /></td></tr>
-<tr class="separator:ac250d8e735f929f51cfdc6c13657092c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a515e69e17a5ce4f77d9b445943ddff" id="r_a5a515e69e17a5ce4f77d9b445943ddff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a515e69e17a5ce4f77d9b445943ddff">setGateParameters</a> (byte gate, byte movingThreshold, byte stationaryThreshold)</td></tr>
+<tr class="memdesc:a5a515e69e17a5ce4f77d9b445943ddff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gate parameters for a particular gate, or for all gates at once.  <br /></td></tr>
+<tr class="separator:a5a515e69e17a5ce4f77d9b445943ddff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bac0dd1e2e246bc12715c6fb7187c12" id="r_a0bac0dd1e2e246bc12715c6fb7187c12"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bac0dd1e2e246bc12715c6fb7187c12">setMovingThreshold</a> (byte gate, byte movingThreshold)</td></tr>
+<tr class="memdesc:a0bac0dd1e2e246bc12715c6fb7187c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the moving target treshold for a particular gate.  <br /></td></tr>
+<tr class="separator:a0bac0dd1e2e246bc12715c6fb7187c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e43fd600311f7c024658682952319a" id="r_a94e43fd600311f7c024658682952319a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94e43fd600311f7c024658682952319a">setStationaryThreshold</a> (byte gate, byte stationaryThreshold)</td></tr>
+<tr class="memdesc:a94e43fd600311f7c024658682952319a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the stationary target treshold for a particular gate.  <br /></td></tr>
+<tr class="separator:a94e43fd600311f7c024658682952319a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a092a5e1222e297a3d63d597fcbca3cda" id="r_a092a5e1222e297a3d63d597fcbca3cda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092a5e1222e297a3d63d597fcbca3cda">setGateParameters</a> (const <a class="el" href="structMyLD2410_1_1ValuesArray.html">ValuesArray</a> &amp;moving_thresholds, const <a class="el" href="structMyLD2410_1_1ValuesArray.html">ValuesArray</a> &amp;stationary_thresholds, byte noOneWindow=5)</td></tr>
 <tr class="memdesc:a092a5e1222e297a3d63d597fcbca3cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters for all gates at once, as well as the no-one window.  <br /></td></tr>
 <tr class="separator:a092a5e1222e297a3d63d597fcbca3cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1328,8 +1334,8 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
-<a id="ac250d8e735f929f51cfdc6c13657092c" name="ac250d8e735f929f51cfdc6c13657092c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac250d8e735f929f51cfdc6c13657092c">&#9670;&#160;</a></span>setGateParameters() <span class="overload">[1/2]</span></h2>
+<a id="a5a515e69e17a5ce4f77d9b445943ddff" name="a5a515e69e17a5ce4f77d9b445943ddff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a515e69e17a5ce4f77d9b445943ddff">&#9670;&#160;</a></span>setGateParameters() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1342,12 +1348,12 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>movingThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>, </td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>movingThreshold</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>stationaryThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>&#160;)</td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>stationaryThreshold</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1491,6 +1497,37 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 </div>
 </div>
+<a id="a0bac0dd1e2e246bc12715c6fb7187c12" name="a0bac0dd1e2e246bc12715c6fb7187c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bac0dd1e2e246bc12715c6fb7187c12">&#9670;&#160;</a></span>setMovingThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::setMovingThreshold </td>
+          <td>(</td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>gate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>movingThreshold</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the moving target treshold for a particular gate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gate</td><td>the gate to configure [0 - 8] </td></tr>
+    <tr><td class="paramname">movingThreshold</td><td>[0 - 100] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
 <a id="aeff79cddbe08f434308bf2bf59f4d150" name="aeff79cddbe08f434308bf2bf59f4d150"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeff79cddbe08f434308bf2bf59f4d150">&#9670;&#160;</a></span>setNoOneWindow()</h2>
 
@@ -1536,6 +1573,37 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fine</td><td>true=20cm; [false]=75cm </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true on success </dd></dl>
+
+</div>
+</div>
+<a id="a94e43fd600311f7c024658682952319a" name="a94e43fd600311f7c024658682952319a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e43fd600311f7c024658682952319a">&#9670;&#160;</a></span>setStationaryThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MyLD2410::setStationaryThreshold </td>
+          <td>(</td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>gate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte</td>          <td class="paramname"><span class="paramname"><em>stationaryThreshold</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the stationary target treshold for a particular gate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gate</td><td>the gate to configure [0 - 8] </td></tr>
+    <tr><td class="paramname">stationaryhreshold</td><td>[0 - 100] </td></tr>
   </table>
   </dd>
 </dl>
