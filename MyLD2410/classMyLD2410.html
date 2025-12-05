@@ -150,6 +150,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>inEnhancedMode</b> ()
 <tr class="memitem:af201dcba45a731ccb73f875a3b8d45d0" id="r_af201dcba45a731ccb73f875a3b8d45d0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af201dcba45a731ccb73f875a3b8d45d0">statusString</a> ()</td></tr>
 <tr class="memdesc:af201dcba45a731ccb73f875a3b8d45d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the presence status as a c-string.  <br /></td></tr>
 <tr class="separator:af201dcba45a731ccb73f875a3b8d45d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03eb2cc7a2422247c7b1d3d3ba964e6" id="r_ab03eb2cc7a2422247c7b1d3d3ba964e6"><td class="memItemLeft" align="right" valign="top"><a id="ab03eb2cc7a2422247c7b1d3d3ba964e6" name="ab03eb2cc7a2422247c7b1d3d3ba964e6"></a>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>getTimestamp</b> ()</td></tr>
+<tr class="memdesc:ab03eb2cc7a2422247c7b1d3d3ba964e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time (in milliseconds) of the last successfully received data frame. <br /></td></tr>
+<tr class="separator:ab03eb2cc7a2422247c7b1d3d3ba964e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b28439a784cc13edde88d9524e5d710" id="r_a1b28439a784cc13edde88d9524e5d710"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b28439a784cc13edde88d9524e5d710">getFrameCount</a> ()</td></tr>
+<tr class="memdesc:a1b28439a784cc13edde88d9524e5d710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of data frames received so far.  <br /></td></tr>
+<tr class="separator:a1b28439a784cc13edde88d9524e5d710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a982995e44355c5279aeb74f50a53bcf7" id="r_a982995e44355c5279aeb74f50a53bcf7"><td class="memItemLeft" align="right" valign="top"><a id="a982995e44355c5279aeb74f50a53bcf7" name="a982995e44355c5279aeb74f50a53bcf7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>presenceDetected</b> ()</td></tr>
 <tr class="memdesc:a982995e44355c5279aeb74f50a53bcf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether presence was detected in the latest frame. <br /></td></tr>
@@ -560,6 +567,26 @@ MyLD2410::FAIL = (evaluates to false) if no useful info was processed </dd></dl>
 
 <p>Get the Firmware Minor. </p>
 <dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
+
+</div>
+</div>
+<a id="a1b28439a784cc13edde88d9524e5d710" name="a1b28439a784cc13edde88d9524e5d710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b28439a784cc13edde88d9524e5d710">&#9670;&#160;</a></span>getFrameCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long MyLD2410::getFrameCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of data frames received so far. </p>
+<dl class="section return"><dt>Returns</dt><dd>unsigned long </dd></dl>
 
 </div>
 </div>
