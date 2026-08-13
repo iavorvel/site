@@ -21,6 +21,12 @@ An Arduino/ESP32 button library. Detect push-button gestures using a non-blockin
 [MyButton documentation](https://iavorvel.github.io/site/MyButton/classMyButton.html)
 
 ---
+### The Shortest Path Game [&copy; 2026]
+A traveling salesman game.
+
+![TSP icon](images/tsp32.png) [Play TSP](http://3.144.186.86/tspath)
+
+---
 ### Tetris Ai [&copy; 2013]
 Play against a Tetris AI engine, or watch it in action.
 
@@ -42,6 +48,6 @@ Play against an Othelo AI engine.
 
 
 ---
-### TMR Wizard [&copy; 2013 - 2025]
+### TMR Wizard [&copy; 2013 - 2026]
 
 ![TMRwiz icon](images/tmrwiz.png) [TMR wizard](http://3.144.186.86/tmrwiz)
