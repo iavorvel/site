@@ -24,30 +24,30 @@ An Arduino/ESP32 button library. Detect push-button gestures using a non-blockin
 ### The Shortest Path Game [&copy; 2026]
 A traveling salesman game.
 
-![TSP icon](images/tsp32.png) [Play TSP](http://3.144.186.86/tspath)
+![TSP icon](images/tsp32.png) [Play TSP](http://66.228.42.165/tspath)
 
 ---
-### Tetris Ai [&copy; 2013]
+### Tetris AI [&copy; 2013]
 Play against a Tetris AI engine, or watch it in action.
 
-![Tetris icon](images/tetris32.png) [Play Tetris Ai](http://3.144.186.86/tetris)
+![Tetris icon](images/tetris32.png) [Play Tetris Ai](http://66.228.42.165/tetris)
 
 
 ---
-### Othelo/Revresi Ai [&copy; 2017]
+### Othelo/Revresi AI [&copy; 2017]
 
 Play against an Othelo AI engine.
 
-![Othelo icon](images/reversi23.png) [Play Othelo Ai](http://3.144.186.86/reversi)
+![Othelo icon](images/reversi23.png) [Play Othelo Ai](http://66.228.42.165/reversi)
 
 
 ---
 ### Blackjack Game [&copy; 2023]
 
-![Blackack icon](images/bjack32.png) [Play Blackjack](http://3.144.186.86/bjack)
+![Blackjack icon](images/bjack32.png) [Play Blackjack](http://66.228.42.165/bjack)
 
 
 ---
 ### TMR Wizard [&copy; 2013 - 2026]
 
-![TMRwiz icon](images/tmrwiz.png) [TMR wizard](http://3.144.186.86/tmrwiz)
+![TMRwiz icon](images/tmrwiz.png) [TMR wizard](http://66.228.42.165/tmrwiz)
