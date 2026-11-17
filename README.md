@@ -30,7 +30,7 @@ A traveling salesman game.
 ### Tetris AI [&copy; 2013]
 Play against a Tetris AI engine, or watch it in action.
 
-![Tetris icon](images/tetris32.png) [Play Tetris Ai](http://66.228.42.165/tetris)
+![Tetris icon](images/tetris32.png) [Play Tetris AI](http://66.228.42.165/tetris)
 
 
 ---
@@ -38,7 +38,7 @@ Play against a Tetris AI engine, or watch it in action.
 
 Play against an Othelo AI engine.
 
-![Othelo icon](images/reversi23.png) [Play Othelo Ai](http://66.228.42.165/reversi)
+![Othelo icon](images/reversi23.png) [Play Othelo AI](http://66.228.42.165/reversi)
 
 
 ---
@@ -51,3 +51,8 @@ Play against an Othelo AI engine.
 ### TMR Wizard [&copy; 2013 - 2026]
 
 ![TMRwiz icon](images/tmrwiz.png) [TMR wizard](http://66.228.42.165/tmrwiz)
+
+---
+### Radiation Treatment Sketch [AI-coded]
+
+![tx_sketch icon](images/tx-sketch.svg) [TX-Sketch](http://66.228.42.165/tx_sketch)
